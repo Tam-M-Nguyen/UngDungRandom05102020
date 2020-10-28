@@ -9,6 +9,7 @@
 
     <!--    Tạo title-->
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -21,6 +22,7 @@
 
     <!--    Khung nhập giá trị min-->
     <EditText
+        android:id="@+id/editTextMin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -32,6 +34,7 @@
 
     <!--    Khung nhập giá trị max-->
     <EditText
+        android:id="@+id/editTextMax"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -43,6 +46,7 @@
 
     <!--    Nút ra lệnh xuất ra giá trị random-->
     <Button
+        android:id="@+id/buttonRandom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -60,6 +64,7 @@
 
         <!--        Thẻ trực tiếp đưa ra kết quả-->
         <TextView
+            android:id="@+id/textViewResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
